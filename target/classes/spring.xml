@@ -84,6 +84,32 @@
         </bean>
         
         
+        <bean class="com.java.reference.application4.Customer" id="id4">
+        
+        
+        <property name="cid" value="4"/>
+        
+        <property name="cname" value="mahesh"/>
+        
+        
+        <property name="pname" value="laptop"/>
+        
+        <property name="email" value="mahesh@gmail.com"/>
+        
+        <property name="address" ref="address"></property>
+        
+        </bean>
+        
+        <bean class="com.java.reference.application4.Address" id="address">
+        
+        <property name="village" value="pedamajjipalem"/>
+        <property name="city" value="vizianagaram"/>
+        
+        <property name="pincode" value="535221"/>
+        
+        
+        </bean>
+        
         
         
         

@@ -6,6 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.java.application2.Emp;
 import com.java.collections.application3.Product;
+import com.java.reference.application4.Customer;
 import com.java.setter.getters.application1.Student;
 
 public class App {
@@ -40,6 +41,17 @@ public class App {
 	  Product product=(Product)context.getBean("id3");
 	  
 	  System.out.println(product);
+	  
+	  
+	  System.out.println();
+	  
+	  System.out.println("  ********************* spring -reference *******************");
+	  
+	  Customer customer=(Customer)context.getBean("id4");
+	  
+	
+	  customer.getAddingAll();
+	  
 	  
   }
 }
