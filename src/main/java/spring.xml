@@ -8,7 +8,7 @@
         
         
         
-        <bean class="com.java.Student" id="id1">
+        <bean class="com.java.setter.getters.application1.Student" id="id1">
         
         <property name="id">
         <value>1</value>
@@ -23,6 +23,15 @@
         </property>
         </bean>
         
+            
+        <bean class="com.java.application2.Emp" id="id2">
+    
+    <constructor-arg name="id" value="2"/>
+    <constructor-arg name="name" value="madhu"/>
+    <constructor-arg name="email" value="madhu@gmail.com"/>
+    <constructor-arg name="address" value="vzm"/>
+    <constructor-arg name="password" value="madhu@1234"/>
+    </bean>
         
         
         

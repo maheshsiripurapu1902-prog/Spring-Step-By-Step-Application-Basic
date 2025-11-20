@@ -1,4 +1,4 @@
-package com.java;
+package com.java.setter.getters.application1;
 
 public class Student {
 	private int id;
