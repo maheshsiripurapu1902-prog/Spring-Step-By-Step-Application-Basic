@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        
+        
+        <bean class="com.java.autowired.Student_Mahesh" id="mahesh" autowire="byType"> 
+        <property name="id" value="1"/>
+        
+        <property name="name" value="mahesh"/>
+        </bean>
+        
+        
+        <bean class="com.java.autowired.Address1" id="address3">
+        
+        <property name="village" value="pedamajjipalem"/>
+        <property name="city" value="vzm"/>
+        
+        <property name="pincode" value="297349"/>
+        </bean>
+        
+        
+        
+        
+        
+        
+        </beans>
+        
+        
+        
